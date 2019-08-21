@@ -4,7 +4,7 @@
 
 
 
-<html class="theme-next muse use-motion" lang="en">
+<html class="theme-next gemini use-motion" lang="en">
 <head>
   <meta charset="UTF-8">
 <meta name="generator" content="Hexo 3.9.0">
@@ -26,11 +26,11 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '7.3.0',
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":false},
     save_scroll: false,
     copycode: {"enable":false,"show_result":false,"style":null},
     fancybox: false,
@@ -55,13 +55,16 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta name="description" content="This guy is too lazy to leave anything.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Shaobo&#39;s Blog">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Shaobo&#39;s Blog">
+<meta property="og:description" content="This guy is too lazy to leave anything.">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Shaobo&#39;s Blog">
+<meta name="twitter:description" content="This guy is too lazy to leave anything.">
   <link rel="canonical" href="http://yoursite.com/archives/">
 
 
@@ -76,7 +79,7 @@
   };
 </script>
 
-  <title>Archive | Hexo</title>
+  <title>Archive | Shaobo's Blog</title>
   
 
 
@@ -125,10 +128,12 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">Shaobo's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+        <p class="site-subtitle">Technology Changes the World</p>
+      
   </div>
 
   <div class="site-nav-toggle">
@@ -151,8 +156,49 @@
         <li class="menu-item menu-item-home">
       
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-about">
+      
+    
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags<span class="badge">0</span></a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories<span class="badge">0</span></a>
 
   </li>
       
@@ -162,25 +208,26 @@
         <li class="menu-item menu-item-archives">
       
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives<span class="badge">1</span></a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-sitemap">
+      
+    
+      
+    
+
+    <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>Sitemap</a>
 
   </li>
   </ul>
-
-    
-
-    
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
 
 </nav>
 </div>
@@ -192,6 +239,32 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+            
+
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
           <div id="content" class="content page-archive">
             
 
@@ -281,8 +354,8 @@
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
-  <div class="site-description motion-element" itemprop="description"></div>
+  <p class="site-author-name" itemprop="name">Shaobo</p>
+  <div class="site-description motion-element" itemprop="description">This guy is too lazy to leave anything.</div>
 </div>
   <nav class="site-state motion-element">
       <div class="site-state-item site-state-posts">
@@ -295,12 +368,21 @@
       </div>
     
   </nav>
+  <div class="chat motion-element"><i class="fa fa-comment"></i>
+    Chat
+  </a>
+  </div>
 
 
 
 
         </div>
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -316,11 +398,11 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Shaobo</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.3.0</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.3.0</div>
 
         
 
@@ -334,9 +416,6 @@
         
       </div>
     </footer>
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-      </div>
 
     
 
@@ -349,7 +428,8 @@
 
 <script src="/js/utils.js?v=7.3.0"></script><script src="/js/motion.js?v=7.3.0"></script>
 
-<script src="/js/schemes/muse.js?v=7.3.0"></script>
+<script src="/js/schemes/pisces.js?v=7.3.0"></script>
+
 
 
 <script src="/js/next-boot.js?v=7.3.0"></script>
